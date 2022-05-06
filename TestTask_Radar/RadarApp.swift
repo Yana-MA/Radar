@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct TestTask_RadarApp: App {
+struct RadarApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RadarView()
         }
     }
 }
